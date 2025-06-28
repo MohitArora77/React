@@ -101,3 +101,45 @@ To write tag in XML
 # For Props Drilling
 * For Nested child 
 parent -> Child1 -> Child2 (Props Drilling)
+
+
+# FORMS
+
+> In react there are 2 forms 
+i) Controlled Forms
+> By using  useState -> return Array
+ii) Uncontrolled Forms
+> By using useRef -> return Object
+> Current Key is Undefined {current : undefined}
+
+# React works on 2 DOM :
+i) Real DOM (Browser's DOM)
+> Create Browser
+> Uncontrollable form
+
+ii) Virtual DOM
+> Create React
+> Controllable Form
+
+1) Whenever we create a project the Real DOM (browser DOM) will be created.
+2) Multiple Virtual DOM will be created when we want to update the real DOM for Controlled Forms.
+3) React with the help of Diffing Algo is used to check the difference between Old VDOM and New VDOM and the updated state and previous updated state of Virtual DOM will be taken for comparison.
+4) Then the difference between them will be find and the real DOM will be updated or patched based on those differnce ,its called Patching.
+
+Complete Process is called Reconciliation and this works on Controlled Forms. That's why we generally used Controlled forms bcz in Uncontrolled form the Real DOM will be directly updated. 
+
+# React CSS
+
+> Types
+1) Inline 
+> style ={{property:value,property:value}}
+2) Global (created inside src folder)
+3) Module (filename.module.css)
+> Don't use element selector always take id or class
+> id = {style.idname or classname}
+> use combinator selectors
+
+context
+reducer
+lifecycle
+routing

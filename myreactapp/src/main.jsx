@@ -1,7 +1,7 @@
 import {createRoot} from "react-dom/client" // createRoot -> to create a root to send element in browers DOM
 
 import App from "./App" // import App.jsx Component
-
+import "./index.css"
 const div= document.getElementById("root")
 
 // createRoot(div).render(<h1></h1><h2></h2>) // nedd a parent tag withour parent tag it will not work

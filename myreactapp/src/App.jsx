@@ -15,6 +15,12 @@
 import StatesInCbc from "./alltopics/02_states/StatesInCbc";
 import Parent from "./alltopics/03_props/Parent";
 import DrillingParent from "./alltopics/04_propsDrilling/DrillingParent";
+import ControlledForms1 from "./alltopics/05_forms/ControlledForms1";
+import ControlledForms2 from "./alltopics/05_forms/ControlledForms2";
+import UncontrolledForms from "./alltopics/05_forms/UncontrolledForms";
+import InlineCss from "./alltopics/06_react_css/InlineCss";
+import Navbar from "./alltopics/06_react_css/Navbar";
+import Card from "./alltopics/06_react_css/Card";
 
 const App=()=>{
     return(
@@ -27,8 +33,13 @@ const App=()=>{
             <StatesInFbc></StatesInFbc> */}
             {/* <StatesInCbc></StatesInCbc> */}
             {/* <Parent/> */}
-            <DrillingParent></DrillingParent>
-            
+            {/* <DrillingParent></DrillingParent> */}
+            {/* <ControlledForms1></ControlledForms1> */}
+            {/* <ControlledForms2></ControlledForms2> */}
+            {/* <UncontrolledForms/> */}
+            {/* <InlineCss/> */}
+            {/* <Navbar/> */}
+            <Card/>
         </div>
     );
 }; 
