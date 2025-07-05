@@ -8,7 +8,10 @@ const ControlledForms1 = ()=>{
     const [password,setPassword] = useState("") 
 
     // Functions created for the change when we enter values 
+    // e -> parameter 
     const HandleEmail = (e)=>{
+        // console.log(e);   
+        // Synthetic based event {...details of event and element -> target key -> value}
         setEmail(e.target.value)
     } 
     const HandlePassword = (e) =>{

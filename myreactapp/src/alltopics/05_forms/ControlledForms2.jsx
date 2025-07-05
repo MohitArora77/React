@@ -11,10 +11,10 @@ const ControlledForms2 = () => {
 
   // Function craeted for both email and Password
 
-  const handleChange = (e) => {
-    let { name, value } = e.target;
+  const handleChange = (e) => { // Synthetic based event {...details of event and element { target key : {value,name}}
+    let { name, value } = e.target; // Destructuring
     setFormData({...formData, [name]: value });
-    // Create a splite for both name and value to be included
+    // Create a spread Operator for both name and value to be included
     // ...formData -> {email:"" , password :""}
   };
 

@@ -4,7 +4,7 @@ import { useRef } from "react";
 const UncontrolledForms = () => {
 
     // In Uncontrolled we use useRef() -> return object
-    let emailRef = useRef(""); // {current : ""}
+    let emailRef = useRef(""); // {current : ""} // initally undefined {current : ud} // current element
     let passwordRef = useRef(""); // {current : ""} 
 
     const formSubmit =(e) =>{

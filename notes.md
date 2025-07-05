@@ -5,6 +5,7 @@ br# React.js :
 # Next.js :
 > It is a framework (A framework collection of library)
 
+
 # Features of React.js :
 1) Single Page Application
 2) Declarative (It Tells -> What to do?)
@@ -87,8 +88,22 @@ To write tag in XML
 
 # ES7 + React/redux/react-native snippets
 -> rafce (React Arrow function component export)
-
+-> rcc (for Class Based Component)
 # CBC is statefull 
+
+# All topics :
+types of component
+states
+props
+propsDrilling
+Forms
+React CSS
+Context
+lifecycle
+reducer
+routing
+Memo 
+HOF
 
 # Props -> Properties
 > To send the data from one function to other function
@@ -133,13 +148,45 @@ Complete Process is called Reconciliation and this works on Controlled Forms. Th
 > Types
 1) Inline 
 > style ={{property:value,property:value}}
+> Use expression 
+> second letter 1st letter will be capital
 2) Global (created inside src folder)
+> global CSS will be import in main.jsx
+> id="idname"
+> tailwind css import in Global CSS
 3) Module (filename.module.css)
 > Don't use element selector always take id or class
-> id = {style.idname or classname}
+> id = {style.idname or classname} -> for it to run on specific file
 > use combinator selectors
+> to import -> import style from "./filename.module.css"
 
-context
-reducer
-lifecycle
-routing
+
+# Context 
+> A context is like store room
+> In which any child can able to access the propety of parent directly from the parent 
+
+> steps to create context
+1) context create
+step-1 :
+> React provide method called createContext , so import
+> called be called outside the component
+> Store will be created in parent
+2) context provide
+step-2 :
+> The store contains a key provider.
+> Provider have in-built value
+3) context consume
+step-3 :
+> usecontext to provide the context(Store) in which we
+> usecontext() accept a context object
+> Export the store from parent and import were we want to use the context 
+
+# Life Cycle :
+> 3 Phase :
+1) Mounting (component on UI)
+> componentDidMount(){}
+2) Updating (component get updated)
+> componentDidUpdate(){}
+3) Unmounting (component removed from UI)
+> componentWillUnmount(){}
+> Work in Class Based Component

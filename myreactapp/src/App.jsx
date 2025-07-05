@@ -21,6 +21,8 @@ import UncontrolledForms from "./alltopics/05_forms/UncontrolledForms";
 import InlineCss from "./alltopics/06_react_css/InlineCss";
 import Navbar from "./alltopics/06_react_css/Navbar";
 import Card from "./alltopics/06_react_css/Card";
+import ParentContext from "./alltopics/07_context/Parent"
+import LifeCycleInCBC from "./alltopics/08_lifecycle/LifeCycleInCBC";
 
 const App=()=>{
     return(
@@ -39,7 +41,9 @@ const App=()=>{
             {/* <UncontrolledForms/> */}
             {/* <InlineCss/> */}
             {/* <Navbar/> */}
-            <Card/>
+            {/* <Card/> */}
+            {/* <ParentContext/> */}
+            <LifeCycleInCBC/>
         </div>
     );
 }; 
