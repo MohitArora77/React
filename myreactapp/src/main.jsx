@@ -5,14 +5,14 @@ import "./index.css"
 import Context from "./alltopics/07_context/Context";
 
 const div= document.getElementById("root")
-
-// createRoot(div).render(<h1></h1><h2></h2>) // nedd a parent tag withour parent tag it will not work
-// createRoot(div).render(App()) 
-// createRoot(div).render(<App></App>) // Using XML 
 createRoot(div).render(
 <Context>
 <App/> 
 </Context>)
+
+// createRoot(div).render(<h1></h1><h2></h2>) // nedd a parent tag withour parent tag it will not work
+// createRoot(div).render(App()) 
+// createRoot(div).render(<App></App>) // Using XML 
 {/*  Using XML  */}
 
 // By Method Chaining after taking the data render the data on browser using .render() -> render help the data to show on UI

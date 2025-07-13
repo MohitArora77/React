@@ -23,6 +23,13 @@ import Navbar from "./alltopics/06_react_css/Navbar";
 import Card from "./alltopics/06_react_css/Card";
 import ParentContext from "./alltopics/07_context/Parent"
 import LifeCycleInCBC from "./alltopics/08_lifecycle/LifeCycleInCBC";
+import LifeCycleInFBC from "./alltopics/08_lifecycle/LifeCycleInFBC";
+import Fetch from "./alltopics/09_fetch/Fetch";
+import Reducer from "./alltopics/10_useReducer/Reducer";
+import MemoAndCallback from "./alltopics/11_memo_and_callback/MemoAndCallback";
+import ParentX from "./alltopics/12_hoc/ParentX";
+import Routing1 from "./alltopics/13_browserRouter/Routing1";
+import Routing2 from "./alltopics/14_createbrowserRouting/Routing2";
 
 const App=()=>{
     return(
@@ -43,7 +50,14 @@ const App=()=>{
             {/* <Navbar/> */}
             {/* <Card/> */}
             {/* <ParentContext/> */}
-            <LifeCycleInCBC/>
+            {/* <LifeCycleInCBC/> */}
+            {/* <LifeCycleInFBC/> */}
+            {/* <Fetch/> */}
+            {/* <Reducer/> */}
+            {/* <MemoAndCallback/> */}
+            {/* <ParentX></ParentX> */}
+            {/* <Routing1/> */}
+            <Routing2/>
         </div>
     );
 }; 
